@@ -1,0 +1,9 @@
+services:
+  jekyll:
+    image: "jekyll/jekyll:${JEKYLL_VERSION}"
+    container_name: nitsas.dev
+    volumes:
+      - ".:/srv/jekyll"
+    ports:
+      - 4000:4000
+    command: jekyll serve --watch --drafts

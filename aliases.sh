@@ -11,3 +11,4 @@ alias drbuild="dr bundle exec jekyll build"
 
 # Alias to serve the site locally
 alias drserve="docker run --rm --volume=\"$PWD:/srv/jekyll\" --interactive --tty --publish=4000:4000 jekyll/jekyll:$JEKYLL_VERSION jekyll serve --watch --drafts"
+# Alternatively just use `docker-compose up`
