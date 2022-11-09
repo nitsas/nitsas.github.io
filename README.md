@@ -13,3 +13,9 @@ drserve
 # Build the site
 drbuild
 ```
+
+## Resources I used to build this
+
+- https://ddewaele.github.io/running-jekyll-in-docker/
+- https://www.moncefbelyamani.com/making-github-pages-work-with-latest-jekyll/
+- https://jekyllrb.com/docs/
