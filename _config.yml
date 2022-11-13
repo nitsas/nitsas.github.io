@@ -28,6 +28,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nitsas.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: nitsas
 
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/nitsas" }
+    - { platform: linkedin, user_url: "https://gr.linkedin.com/in/chrisnitsas" }
+    - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/703233/nitsas" }
+
 # Build settings
 theme: minima
 plugins:
